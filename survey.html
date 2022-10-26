@@ -23,11 +23,12 @@
         <br>
         <br>
 
+        <!--Question #1 Number-->
         <label for="average">1. What is the average number of people you speak to daily?</label>
             <input type="number" name="average" id="average" step="1" required>
             <br>
             <br>
-
+        <!--Question #2 Scale-->
         <label for="confidence">2. How confident are you speaking to someone you never met?</label>
         <br>
         <br>
@@ -37,6 +38,8 @@
             <span>Very Confident</span>
             <br>
             <br>
+
+        <!--Question #3 Checkbox-->
             <span>3. What communication skills do you want to improve? Check all that apply.</span>
             <br>
             <br>
@@ -58,6 +61,29 @@
             <br>
             <input type="checkbox" name="skill" id="confidence" value="confidence">
             <label for="confidence">Confidence</label>
+            <br>
+            <br>
+        <!--Question #4 Dropdown-->
+        <label for="important">4. What is the most important form of communication?</label>
+        <select id="important" name="important">
+            <option value="non-verbal">Non-Verbal</option>
+            <option value="verbal">Verbal</option>
+            <option value="listening">Listening</option>
+            <option value="written">Written</option>
+        </select>
+
+            <br>
+            <br>
+
+        <!--Question #5 Radio-->
+            <span>5. Are you interested in additional communication resources?</span>
+            <br>
+            <br>
+            <input type="radio" name="resources" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="resources" id="no" value="no">
+            <label for="no">No</label>
+
 
         </form>
 
